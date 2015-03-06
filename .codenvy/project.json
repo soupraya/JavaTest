@@ -1,1 +1,1 @@
-{"builders":{"default":"ant"},"runners":{"configs":{"system:/java/standalone/simple/cli":{"ram":0,"variables":{},"options":{}}},"default":"system:/java/standalone/simple/cli"},"type":"ant","attributes":{}}
+{"mixinTypes":["contribution"],"builders":{"configs":{},"default":"ant"},"runners":{"configs":{"system:/java/standalone/simple/cli":{"ram":0,"variables":{},"options":{}}},"default":"system:/java/standalone/simple/cli"},"type":"ant","attributes":{"languageVersion":["1.6"],"language":["java"],"contribute_branch":["master"],"contribute_mode":["contribute"]}}
