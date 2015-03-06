@@ -12,11 +12,20 @@ public class ArrayTest {
     B= this.B;
     C= this.C;
 	 }
+  
   public void addArray()
     {
+    D = new double[3];
     D[0] = A;
     D[1] = B;
     D[2] = C;
+  	}
+  
+  public double[] getD()
+    {
+    return D;
+    
   }
+  
   
 }
