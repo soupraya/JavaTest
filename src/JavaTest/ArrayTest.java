@@ -4,18 +4,17 @@ public class ArrayTest {
   double A;
   double B;
   double C;
-  double D[];
+  double D[] = new double[3];
   
   public ArrayTest(double A, double B, double C)
     {
-    A= this.A;
-    B= this.B;
-    C= this.C;
+    this.A= A;
+    this.B= B;
+    this.C= C;
 	 }
   
   public void addArray()
     {
-    D = new double[3];
     D[0] = A;
     D[1] = B;
     D[2] = C;
@@ -26,6 +25,10 @@ public class ArrayTest {
     return D;
     
   }
-  
-  
+  public void printD()
+    {
+    for(int i=0;i<D.length;i++)
+    	System.out.println(D[i]);
+  }
+  	
 }
