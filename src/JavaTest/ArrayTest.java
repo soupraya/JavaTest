@@ -5,6 +5,7 @@ public class ArrayTest {
   double B;
   double C;
   double D[] = new double[3];
+  String E;
   
   public ArrayTest(double A, double B, double C)
     {
